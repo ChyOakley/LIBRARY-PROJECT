@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #new-book-btn {
+    background-color: white;
+    color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #form-container {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    width: 300px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #library {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card button {
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .remove-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .toggle-btn {
+    background-color: #3498db;
+    color: white;
+  }
